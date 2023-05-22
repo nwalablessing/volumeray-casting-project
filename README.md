@@ -4,6 +4,10 @@ FIRST I CREATED AND REGISTRED A GITHUB ACCOUNT
 
 THEN I CREATED A NEW REPOSITORY ON MY GITHUB AND I GAVE IT A NAME CALLED Volume-ray-casting-project.
 
+i then searched for an existing project on github on volune ray casting https://github.com/Chan-Mao-Hsiang/VolumeRayCasting-master
+to get my source code.
+
+
 
 i used SSH to coonect and authenticate remote server and services
 
