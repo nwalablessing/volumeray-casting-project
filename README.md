@@ -47,9 +47,9 @@ picture as shown below
 
 ![reveal in file explorer](https://github.com/nwalablessing/volumeray-casting-project/assets/106828675/b88410ff-6bb9-4f15-8078-949150ded791)
 
-I was able to view my output by clicking on INDEX using microsoft edge i was able to view the output of my code
+I was able to view the output by clicking on INDEX using microsoft edge i was able to view the output of my code
 
-picture of my output is shown below
+picture of the output is shown below
 
 ![my output](https://github.com/nwalablessing/volumeray-casting-project/assets/106828675/803e8589-595e-43cb-a7c5-9940b4a870e4)
 
