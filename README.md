@@ -1,26 +1,31 @@
 # FULL EXPLANATION ON HOW I RAN A CODE ON VOLUME RAY CASTING
 
-FIRST I CREATED AND REGISTED A GITHUB ACCOUNT
+FIRST I CREATED AND REGISTRED A GITHUB ACCOUNT
 
-THEN I CREATED A NEW REPOSITORY ON MY GITHUB AND I GAVE IT A NAME CALLED Volume-ray-castin project.
+THEN I CREATED A NEW REPOSITORY ON MY GITHUB AND I GAVE IT A NAME CALLED Volume-ray-casting-project.
 
 
 i used SSH to coonect and authenticate remote server and services
 
-## THIS PROJECT AIMS TO DEVELOP A POWEFUL REAL-TIME VOLUME RENDERING ENGINE
+## THIS PROJECT AIMS TO DEVELOP A POWERFUL REAL-TIME VOLUME RENDERING ENGINE
 
 
 THIS PROJECCT USES JAVASCRIPT 
 
 I also used VISUAL STUDIO CODE IDE TO RUN MY PROJECT
+
  I CREATED A FOLDER ON MY DESKTOP CALLED PROJECT AND RIGHT CLICK IN THE FOLDER AND SELECTED OPEN WITH CODE
+ 
  I THEN OPENED A NEW TERMINAL ON MY VISUAL STUDIO CODE IDE
+ 
  THEN I TYPED IN git clone command  and my repository URL to clone it
+ 
  i also used the git init coomand
  
- once it was succesful i could see my folder i created on the top left corner in my visual studio IDE
+ once it was succesful, i could see my folder i created on the top left corner in my visual studio IDE
  
  i dropped down the folders and went to the index.html code
+ 
  below is a picture of the index.html code
  
  
@@ -58,5 +63,9 @@ please note: i also had to confirm and approve authentication with my mobile pho
 ![complete gitpush authentication](https://github.com/nwalablessing/volumeray-casting-project/assets/106828675/634b181e-f3c8-4ca3-b6c3-6e6ff58ab083)
 
 I then edited my Readme and also commited it.
+
+PLEASE KINDLY NOTE THAT THIS PROJECT IS A SUCCESSOR OF EARLIER EXPERIMENTS WITH VOLUME RENDERING BY DRAWING POINT CLOUDS: GitHub https://github.com/Chan-Mao-Hsiang/VolumeRayCasting-master
+
+This experiment is not suitable for clinical use.
 
 ### THE END
