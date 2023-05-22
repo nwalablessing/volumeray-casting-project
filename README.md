@@ -1,64 +1,62 @@
-# Volume Rendering for the Browser
+# FULL EXPLANATION ON HOW I RAN A CODE ON VOLUME RAY CASTING
 
-[See it in action!](https://draemm.li/various/volumeRendering/webgl2/)
+FIRST I CREATED AND REGISTED A GITHUB ACCOUNT
 
-This project aims to develop a powerful real-time volume rendering engine for the browser.
+THEN I CREATED A NEW REPOSITORY ON MY GITHUB AND I GAVE IT A NAME CALLED Volume-ray-castin project.
 
-![MRI rendered using a specular shader](doc/img/mri-water1.png)
 
-This is accomplished using [volume ray casting](https://en.wikipedia.org/wiki/Volume_ray_casting), implemented in WebGL 2.
+i used SSH to coonect and authenticate remote server and services
 
-![MRI rendered using an edge-detect shader](doc/img/edges-water-orange.png)
+## THIS PROJECT AIMS TO DEVELOP A POWEFUL REAL-TIME VOLUME RENDERING ENGINE
 
-A variety of shaders exist, from basic maximum-intensity projection to photorealistic graphics.
 
-![Photorealistic rendering of a head](doc/img/mri-realistic.png)
+THIS PROJECCT USES JAVASCRIPT 
 
-## How do I render my own data?
+I also used VISUAL STUDIO CODE IDE TO RUN MY PROJECT
+ I CREATED A FOLDER ON MY DESKTOP CALLED PROJECT AND RIGHT CLICK IN THE FOLDER AND SELECTED OPEN WITH CODE
+ I THEN OPENED A NEW TERMINAL ON MY VISUAL STUDIO CODE IDE
+ THEN I TYPED IN git clone command  and my repository URL to clone it
+ i also used the git init coomand
+ 
+ once it was succesful i could see my folder i created on the top left corner in my visual studio IDE
+ 
+ i dropped down the folders and went to the index.html code
+ below is a picture of the index.html code
+ 
+ 
+ 
+ ![my html code](https://github.com/nwalablessing/volumeray-casting-project/assets/106828675/a7d4826b-32ef-4656-964f-07d65dfc9a21)
 
-I am planning to implement a better way to do this, but for now, you'll have to clone the project and edit the code to add your own images.
 
-First, have a look at [webgl2/images/sagittal.png](webgl2/images/sagittal.png).
-Slices from the image data are tiled into one image top-down, then left-right.
-Multiple columns are sometimes necessary because browsers have [limits on the maximum size](https://stackoverflow.com/questions/6081483/maximum-size-of-a-canvas-element) of a `<canvas>` element.
+to run the javascript index.html code i right clicked on index.html as seen from the picture above and selected reveal in file explorer.
 
-To generate such an image, [ImageMagick](https://www.imagemagick.org/Usage/montage/) is a powerful tool.
+it then took me to my folder on my desktop
 
-Once you have generated your image, add an entry to the `volumes` variable in [webgl2/js/raycasting.js](webgl2/js/raycasting.js):
+picture as shown below
 
-```javascript
-var volumes = {
-    sagittal: {                        // any variable name
-         src: "./images/sagittal.png"  // path to your image
-        ,name: "Brain - Water"         // a (somewhat) descriptive name
-        ,columns: 2                    // number of columns by which your tiles are arranged
-        ,slices: 176                   // number of total image slices
-        ,zScale: 0.7                   // ratio of distance between slices to distance between pixels
-    }
-    // ...
-}
-```
 
-When you refresh the page, you should now see your volume in the drop down list.
 
-## Volume Generator
+![reveal in file explorer](https://github.com/nwalablessing/volumeray-casting-project/assets/106828675/b88410ff-6bb9-4f15-8078-949150ded791)
 
-For testing, there's a [volume generator](https://draemm.li/various/volumeRendering/volumeGenerator/), which might also be interesting for other projects working with volume data.
+I was able to view my output by clicking on INDEX using microsoft edge i was able to view the output of my code
 
-## CPU-Only version
+picture of my output is shown below
 
-Before implementing this project in WebGL, I wrote a [volume renderer in pure CPU-side, single-threaded JavaScript](https://draemm.li/various/volumeRendering/cpu/).
+![my output](https://github.com/nwalablessing/volumeray-casting-project/assets/106828675/803e8589-595e-43cb-a7c5-9940b4a870e4)
 
-![Volume rendering on the CPU](doc/cpu-3d.png)
 
-With some tweaking, I managed to get it running at 60fps on my old ThinkPad.
+i then used the git push command using my repository url to push my project to my git hub account.
 
-## Previous work
+when push was successful i then was able to see it in my git hub repository i created.
 
-This project is the successor of earlier experiments with volume rendering by drawing point clouds:  
-[GitHub](https://github.com/RolandR/brainrender), [Web](https://draemm.li/various/brainrender/)
+please note: i also had to confirm and approve authentication with my mobile phone.
 
-## Disclaimer
+![git push command 1](https://github.com/nwalablessing/volumeray-casting-project/assets/106828675/e7e02aa0-f059-4d43-b209-7595fc496479)
 
-This is an experimental project developed by someone who has no real experience or training in medical imaging.  
-**It is not intended or suitable for clinical use.**
+
+
+![complete gitpush authentication](https://github.com/nwalablessing/volumeray-casting-project/assets/106828675/634b181e-f3c8-4ca3-b6c3-6e6ff58ab083)
+
+I then edited my Readme and also commited it.
+
+### THE END
