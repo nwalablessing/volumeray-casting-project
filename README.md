@@ -11,7 +11,7 @@ to get my source code.
 
 i used SSH to coonect and authenticate remote server and services
 
-## THIS PROJECT AIMS TO DEVELOP A POWERFUL REAL-TIME VOLUME RENDERING ENGINE
+THIS PROJECT AIMS TO DEVELOP A POWERFUL REAL-TIME VOLUME RENDERING ENGINE
 
 
 THIS PROJECCT USES JAVASCRIPT 
@@ -22,7 +22,7 @@ I also used VISUAL STUDIO CODE IDE TO RUN MY PROJECT
  
  I THEN OPENED A NEW TERMINAL ON MY VISUAL STUDIO CODE IDE
  
- THEN I TYPED IN git clone command  and my repository URL to clone it
+ Then i typed in the  "git clone" command  and my repository URL to clone it
  
  i also used the git init coomand
  
