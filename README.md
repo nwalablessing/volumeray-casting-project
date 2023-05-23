@@ -24,7 +24,7 @@ I also used "VISUAL STUDIO CODE IDE" TO RUN MY PROJECT
  
  Then i typed in the  "git clone" command  and my repository URL to clone it
  
- i also used the git "init" command
+ i also used the "git init" command
  
  once it was successful, i could see the folder i created on the top left corner in my visual studio IDE
  
