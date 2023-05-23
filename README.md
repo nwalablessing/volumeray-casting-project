@@ -54,7 +54,7 @@ picture of the output is shown below
 ![my output](https://github.com/nwalablessing/volumeray-casting-project/assets/106828675/803e8589-595e-43cb-a7c5-9940b4a870e4)
 
 
-i then used the git push command using my repository url to push to project to my github repository created in my git hub account.
+i then used the git push command using my repository url to push the project to my github repository created in my github account.
 
 when push was successful i then was able to see it in my github repository i created.
 
